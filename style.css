@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: "Karla", serif;
+    color: hsl(204, 43%, 93%);
+    background: hsl(204, 43%, 93%);
+    font-weight: 700;
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h2,
+.bold-text {
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto 20px;
+    background-color: #fff;
+}
+
+.sides,
+.first-section,
+.second-section {
+    padding: 20px;
+}
+
+.first-section {
+    background: hsl(179, 62%, 43%);
+}
+
+.second-section {
+    background: hsl(179, 80%, 43%);
+}
+
+.second-section p {
+    margin: 0;
+    padding-bottom: 4px;
+}
+
+.yellow-text {
+    color: hsl(71, 73%, 54%);
+}
+
+.bold-text {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.btn {
+    padding: 15px 110px;
+    background: hsl(71, 73%, 54%);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #000;
+    background: hsl(325, 91%, 46%);
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1450px) {
+
+    .container {
+        max-width: 550px;
+    }
+
+    .sections {
+        display: flex;
+    }
+
+    .second-section {
+        width: 45%;
+        padding-left: 30px;
+    }
+
+    .first-section {
+        width: 55%;
+    }
+
+    .btn {
+        padding: 10px 80px;
+        margin-top: 30px;
+    }
+    
+}
